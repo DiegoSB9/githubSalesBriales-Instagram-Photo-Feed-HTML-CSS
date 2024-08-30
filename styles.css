@@ -1,0 +1,74 @@
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+.firstdiv {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.header {
+    align-content: center;
+    margin: auto;
+    width: 35%;
+    height: 98px;
+}
+
+.seconddiv {
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.postdiv {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 35%;
+    background: white;
+}
+
+.titlediv {
+    display: flex;
+    height: 40px;
+    align-items: center;
+
+}
+
+.title {
+    align-content: center;
+    margin-left: 5px;
+    height: 30px;
+
+}
+
+.subtitle {
+    margin-left: auto;
+    margin-right: 5px;
+    align-content: center;
+    height: 30px;
+
+}
+
+.description {
+    border-top: 1px solid rgba(0, 0, 0, 0.432) ;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+p {
+    margin-left: 8px;
+}
+
+.photo {
+    overflow: hidden;   
+}
+
+.cover-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
